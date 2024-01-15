@@ -1,0 +1,772 @@
+/* 
+Site: www.Artforweb.co.br
+Nome: washington silva ferreira leite
+washington.ferreira2@gmail.com
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	font-family: inherit;
+
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a {
+	text-decoration: none;
+}
+#conteiner {
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	height: auto;
+}
+
+#banner {
+	height: 213px;
+	width: 960px;
+	background-image: url(../img/banner.jpg);
+	background-repeat: no-repeat;
+}
+#conteiner #banner #logo {
+	float: left;
+	margin-top: 30px;
+	margin-left: 5px;
+}
+#conteiner #banner #conteudo_direita {
+	float: right;
+	margin-right: 10px;
+	margin-top: 5px;
+}
+
+#conteiner #banner #conteudo_direita ul li {
+	font-size: 31px;
+	color: #000;
+	margin-bottom: 10px;
+}
+#conteiner #banner #conteudo_direita ul .creci {
+	color: #D92242;
+	font-size: 41px;
+	font-family: "Myriad Pro";
+}
+
+#conteiner #nav {
+	background-color: #D92242;
+	clear: right;
+	
+
+}
+#conteiner #nav li {
+	display: inline;
+	
+}
+#conteiner #nav li a {
+	display: inline-block;
+
+	
+	
+}
+#conteiner #nav li a:hover {
+
+	
+}
+
+#conteiner #fomulario_pesquisa {
+	height: 110px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+#conteiner #fomulario_pesquisa form label {
+	display: block;
+	line-height: 14px;
+	background-color: #F2F2F2;
+	margin-bottom: 5px;
+	height: 55px;
+}
+#conteiner #fomulario_pesquisa form label select {
+	height: 29px;
+	width: 160px;
+	background-color: #D92242;
+	color: #FFF;
+	margin-right: 45px;
+	margin-top: 10px;
+	margin-left: 5px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+
+#conteiner #fomulario_pesquisa form label input {
+	height: 40px;
+	width: 270px;
+	margin-top: 3px;
+	background-image: url(../img/lupa.gif);
+	background-repeat: no-repeat;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	text-indent: 45px;
+	margin-left: 40px;
+}
+
+#conteiner #fomulario_pesquisa form label input:focos {
+	height: 40px;
+	width: 270px;
+	margin-top: 3px;
+	background-image: url(../img/lupa.gif);
+	background-repeat: no-repeat;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	text-indent: 45px;
+}
+
+
+#conteiner #fomulario_pesquisa form label #Perquisar {
+	background-image: url(../img/Buscar.gif);
+	background-repeat: no-repeat;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 35px;
+	color: #FFF;
+	height: 50px;
+	width: 274px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	cursor: pointer;
+	text-indent: -15px;
+	margin-left: 40px;
+}
+#conteiner #conteudo_imoveis_left {
+	background-color: #D4D4D4;
+	height: 1050px;
+	width: 630px;
+	float: left;
+	background-image: url(../img/conteudo_imoveis.jpg);
+	background-repeat: repeat-x;
+}
+#conteiner #conteudo_imoveis_left ul {
+	height: 300px;
+	width: 190px;
+	background-color: #D92242;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	border-radius: 7px;
+	margin-top: 10px;
+	margin-left: 10px;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 30px;
+}
+
+
+
+
+
+#conteiner #conteudo_imoveis_left ul li {
+	text-align: justify;
+	color: #FFF;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	text-indent: 10px;
+	margin-top: 5px;
+}
+
+
+#conteiner #conteudo_imoveis_right {
+	background-color: #494949;
+	float: right;
+	height: auto;
+	width: 310px;
+	padding-bottom: 59px;
+}
+
+#conteiner #conteudo_imoveis_right h1 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 33px;
+	color: #FFF;
+	text-align: center;
+	margin-top: 10px;
+}
+
+#conteiner #conteudo_imoveis_right ul {
+	width: 294px;
+	background-color: #D92242;
+	height: 227px;
+	color: #FFF;
+	font-size: 18px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	margin-right: auto;
+	margin-left: 7px;
+	float: left;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+* html #conteiner #conteudo_imoveis_right ul li {
+	margin: 0 -3px; ma\rgin: 0;
+}
+#conteiner #conteudo_imoveis_right ul li {
+
+	margin-top: 10px;
+	margin-right: 5px;
+	margin-left: 20px;
+	
+}
+#conteiner #conteudo_imoveis_right ul .font_maior {
+	font-size: 25px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+#conteiner #conteudo_imoveis_right ul .preco {
+	clear: both;
+	font-size: 27px;
+	float: left;
+	margin-top: 10px;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+#conteiner #conteudo_imoveis_right ul .img_left {
+	float: left;
+	height: auto;
+	width: auto;
+	overflow: hidden;
+}
+#conteiner #rodape {
+	width: 960px;
+	height: 278px;
+	background-color: #2D2D2D;
+	margin-right: auto;
+	margin-left: auto;
+	overflow: hidden;
+	display: inline;
+	float: left;
+}
+#conteiner #rodape ul {
+	font-family: Tahoma, Geneva, sans-serif;
+	color: #FFF;
+	font-size: 20px;
+	width: 200px;
+	float: left;
+	margin: 5px;
+	padding-top: 10px;
+	padding-right: 5px;
+	padding-bottom: 15px;
+	padding-left: 8px;
+	display: inline;
+}
+
+
+#conteiner #rodape ul li {
+	margin-bottom: 10px;
+	margin-top: 5px;
+}
+#conteiner #rodape form {
+	float: right;
+	text-align: left;
+	height: auto;
+	width: 290px;
+	font-family: impacto;
+	font-size: 25px;
+	color: #FFF;
+	margin-top: 9px;
+}
+
+#conteiner #rodape form label {
+	font-size: 20px;
+	display: block;
+	margin-bottom: 15px;
+	margin-top: 10px;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+#conteiner #rodape form input#email {
+	height: 35px;
+	width: 260px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	padding: 8px;
+	background-color: #069;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #FFF;
+	-moz-border-radius:7px;
+    -webkit-border-radius:7px;
+    border-radius:7px;
+}
+#conteiner .titulo {
+	font-family: impact;
+	font-size: 25px;
+}
+
+.half-line {
+  line-height: .5em;
+}
+
+
+
+#conteiner .clear {
+	clear: right;
+}
+#conteiner #descricao_imovel {
+	background-color: #EEEEEE;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 5px;
+}
+
+#conteiner #descricao_do_imovel_left {
+	float: left;
+	height: 607px;
+	width: 582px;
+	background-color: #2D2D2D;
+	padding-top: 15px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+}
+
+#conteiner #dados_imovel_right {
+	float: right;
+	height: 627px;
+	width: 340px;
+	margin-right: 8px;
+	margin-bottom: 15px;
+}
+
+
+#conteiner #dados_imovel_right h1 {
+	height: 33px;
+	width: 340px;
+	background-color: #2D2D2D;
+	font-family: Tahoma, Geneva, sans-serif;
+	color: #FFF;
+	font-size: 20px;
+}
+#conteiner #dados_imovel_right h1 span.codigo {
+	background-color: #D92242;
+	height: 25px;
+	width: 160px;
+	display: block;
+	float: left;
+	margin-top: 2px;
+	margin-left: 2px;
+	margin-right: 5px;
+	padding-top: 3px;
+	padding-left: 6px;
+}
+#conteiner #dados_imovel_right h1 span {
+	padding-top: 7px;
+	display: block;
+	margin-right: 14px;
+	width: 150px;
+	float: right;
+}
+#conteiner #dados_imovel_right #dados_imovel {
+	height: 581px;
+	width: 330px;
+	background-color: #2D2D2D;
+	margin-top: 3px;
+	padding-top: 10px;
+	padding-left: 5px;
+	color: #FFFFFF;
+	font-size: 20px;
+	font-family: Tahoma, Geneva, sans-serif;
+	padding-right: 5px;
+}
+
+#conteiner #descricao_imovel #dados_imovel_right #dados_imovel ul {
+	margin-bottom: 10px;
+}
+#conteiner #descricao_imovel #dados_imovel_right #dados_imovel ul li {
+	margin-bottom: 10px;
+}
+#conteiner #descricao_imovel #descricao_adicionais {
+	height: auto;
+	background-color: #2D2D2D;
+	clear: right;
+	width: 947px;
+	color: #FFF;
+	font-size: 20px;
+}
+
+#conteiner #descricao_imovel #descricao_adicionais h1 {
+	height: 37px;
+	background-color: #D92242;
+	font-size: 31px;
+	color: #FFF;
+	padding-left: 15px;
+	width: 593px;
+	float: left;
+	font-family: Tahoma, Geneva, sans-serif;
+	padding-top: 5px;
+}
+#conteiner #descricao_imovel #descricao_adicionais span {
+	color: #2D2D2D;
+	background-color: #FFF;
+	font-size: 32px;
+	font-family: impact;
+	float: right;
+	width: 339px;
+	text-align: center;
+	height: 39px;
+	padding-top: 3px;
+}
+#conteiner #descricao_imovel #descricao_adicionais p {
+	width: 590px;
+	padding: 5px;
+	float: left;
+}
+#conteiner #descricao_imovel #descricao_adicionais div.mapa {
+	height: 250px;
+	width: 328px;
+	padding: 5px;
+	float: right;
+	overflow: hidden;
+	margin-right: 5px;
+}
+#conteiner #descricao_imovel #form1 {
+	margin-right: auto;
+	margin-left: auto;
+	height: 130px;
+	background-color: #2D2D2D;
+	margin-top: 15px;
+}
+
+#nome,#email,#tel,#codigo {
+	height: 24px;
+	width: 220px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 18px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	margin-left: 7px;
+}
+#conteiner #descricao_imovel #form1 textarea {
+	width: 692px;
+	height: 59px;
+	margin-left: 7px;
+}
+#conteiner #descricao_imovel #form1 #enviar {
+	width: 162px;
+	height: 41px;
+	color: #2D2D2D;
+	background-color: #D92242;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	font-size: 24px;
+	font-family: "Arial Black", Gadget, sans-serif;
+	margin-left: 40px;
+	position: relative;
+	top: -10px;
+	cursor: pointer;
+}
+
+
+
+
+
+
+/* Fim CSS para efeitos jQuery */
+#galeria {
+	width: 570px;
+	margin-right: auto;
+	margin-left: 8px;
+	margin-top: 40px;
+}
+/* CSS para efeitos jQuery  */
+#tela {
+	width: 560px;
+	height: 350px;
+	margin-right: auto;
+	margin-left: auto;
+	}
+#conteiner #sobre_empresa {
+	float: left;
+	width: 641px;
+	height: 815px;
+	margin-bottom: 15px;
+	background-image: url(../img/conteudo_imoveis.jpg);
+	background-repeat: repeat-x;
+	background-color: #D4D4D4;
+}
+#conteiner #sobre_empresa h1 {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 44px;
+	color: #D92242;
+	text-align: center;
+}
+#conteiner #sobre_empresa p {
+	width: 498px;
+	margin-right: auto;
+	margin-left: auto;
+	height: auto;
+	font-size: 16px;
+	color: #484848;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: justify;
+}
+#conteiner #sobre_empresa img {
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#conteiner #cadastro_usuario {
+	height: 450px;
+	width: auto;
+	background-color: #F2F2F2;
+}
+
+
+#conteiner #cadastro_usuario form {
+	font-size: 22px;
+	color: #3DB2E1;
+	width: 915px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 15px;
+}
+#conteiner #cadastro_usuario form fieldset legend {
+	font-size: 39px;
+	color: #3DB2E1;
+	font-family: impact;
+	margin-bottom: 20px;
+	display: block;
+}
+#conteiner #cadastro_usuario form fieldset label {
+	display: block;
+	width: 289px;
+	float: left;
+	margin-right: 15px;
+}
+#conteiner #cadastro_usuario form fieldset input {
+	display: block;
+	float: left;
+	width: 284px;
+	background-color: #3DB2E1;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	height: 23px;
+	margin-top: 5px;
+	margin-right: 0px;
+	margin-bottom: 5px;
+	margin-left: 0px;
+	color: #FFF;
+	padding: 5px;
+}
+#conteiner #cadastro_usuario form fieldset label #enviar_cad {
+	height: 41px;
+	width: auto;
+	background-color: #D8043D;
+	color: #FFF;
+	margin-right: 78px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	cursor: pointer;
+	font-size: 20px;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+#conteiner #cadastro_usuario form fieldset #login {
+	height: 41px;
+	width: auto;
+	background-color: #D8043D;
+	color: #FFF;
+	margin-right: 78px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	cursor: pointer;
+	font-size: 20px;
+	font-family: Tahoma, Geneva, sans-serif;
+	clear: left;
+}
+#conteiner #cadastro_usuario p {
+	font-size: 20px;
+	color: #D8043D;
+}
+
+
+
+
+
+
+#conteiner #simulador_imovel {
+	height: 600px;
+	width: 959px;
+	background-image: url(../img/conteudo_imoveis.jpg);
+	background-repeat: repeat-x;
+}
+
+#conteiner #simulador_imovel img {
+	display: block;
+	margin-top: 55px;
+	margin-left: 55px;
+	float: left;
+}
+#conteiner #contato {
+	float: left;
+	height: 813px;
+	width: 641px;
+	background-image: url(../img/conteudo_imoveis.jpg);
+	background-repeat: repeat-x;
+	background-color: #D4D4D4;
+}
+#conteiner #contato h1 {
+	font-size: 36px;
+	color: #D92242;
+	font-family: Verdana, Geneva, sans-serif;
+	text-align: center;
+	margin-top: 15px;
+	margin-bottom: 30px;
+}
+#form3 {
+	height: 484px;
+	width: 500px;
+	margin-right: auto;
+	margin-left: auto;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 18px;
+	color: #F00;
+	position: relative;
+	background-color: #F2F2F2;
+}
+#form3 label {
+	display: block;
+	margin-bottom: 30px;
+	padding-left: 20px;
+	height: 30px;
+	vertical-align: bottom;
+	position: relative;
+	top: 10px;
+}
+#form3 #nome,#email3,#te3l,#estado,#cidade {
+	height: 23px;
+}
+#form3 #nome,#email3,#tel3,#estado,#cidade,#mensagem3 {
+	background-color: #666;
+	width: 300px;
+	position: absolute;
+	right: 75px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	padding: 5px;
+	color: #FFF;
+}
+#form3 .Enviar {
+	margin-top: 50px;
+}
+#form3 #Enviar_form1 {
+	height: 41px;
+	width: 96px;
+	background-color: #D8043D;
+	color: #FFF;
+	float: right;
+	margin-right: 78px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	clear: both;
+	cursor: pointer;
+	font-size: 20px;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.tipo {
+	background-color: #D92242;
+	padding: 3px;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 22px;
+}
+
+.finalidade {
+	background-color: #D92242;
+	padding: 3px;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 22px;
+}
+
+
+.image:hover {
+-webkit-transform:scale(1.2);
+transform:scale(1.2);
+-webkit-box-shadow: 0px 0px 15px 5px rgba(0, 185, 233, .75);
+box-shadow: 0px 0px 15px 5px rgba(0, 185, 233, .75);
+-webkit-transition: all 0.7s ease;
+transition: all 0.7s ease;
+}
+.image {
+-webkit-transition: all 0.7s ease;
+transition: all 0.7s ease;
+
+}
+
+.foto {border:none;}

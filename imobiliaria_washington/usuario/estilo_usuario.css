@@ -1,0 +1,218 @@
+/* 
+Site: www.Artforweb.co.br
+Nome: washington silva ferreira leite
+washington.ferreira2@gmail.com
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	font-family: inherit;
+
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	clear: both;
+}
+a {
+	text-decoration: none;
+}
+
+#banner {
+	height: 220px;
+	width: 960px;
+	background-image: url(../img/benner_user.fw.png);
+	background-repeat: repeat-x;
+}
+#conteinner #banner h1 {
+	font-size: 36px;
+	color: #D8043D;
+	font-family: impact;
+	text-align: center;
+}
+#menu_simple {
+	font-size: 22px;
+	background-color: #3DB2E1;
+	width: 960px;
+	float: left;
+}
+#menu_simple ul {
+	padding: 0;
+	list-style-type: none;
+	margin: 0;
+}
+#menu_simple ul li {
+	float: left;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #3DB2E1;
+	border-right-color: #FFF;
+	border-bottom-color: #3DB2E1;
+	border-left-color: #FFF;
+}
+
+#menu_simple ul li a {
+	text-decoration: none;
+	color: white;
+	background-color: #3DB2E1;
+	display: block;
+	padding-top: 10.5px;
+	padding-right: 11px;
+	padding-bottom: 10.5px;
+	padding-left: 11px;
+}
+ 
+#menu_simple ul li a:visited {
+    color: white;
+}
+ 
+#menu_simple ul li a:hover, #menu_simple ul li .current {
+    color: white;
+    background-color: #5FD367;
+}
+
+#conteudo {
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	clear: both;
+}
+#conteinner #conteudo_editar_dados form {
+	font-size: 22px;
+	color: #3DB2E1;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	width: 765px;
+	margin-right: auto;
+	margin-left: auto;
+	clear: both;
+	height: 400px;
+}
+#conteinner #conteudo_editar_dados form fieldset legend {
+	font-family: impact;
+	font-size: 30px;
+	padding: 5px;
+}
+#conteinner #conteudo_editar_dados form fieldset label {
+	width: 375px;
+	float: left;
+	margin: 2px;
+}
+#conteinner #conteudo_editar_dados form fieldset label input {
+	width: 330px;
+	background-color: #3DB2E1;
+	color: #FFF;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	display: block;
+	padding: 10px;
+}
+#conteinner #conteudo_editar_dados form fieldset label #alterar {
+	background-color: #D8043D;
+	width: 200px;
+	cursor: pointer;
+}
+#conteinner #conteudo_editar_dados form fieldset label #cancelar {
+	background-color: #D8043D;
+	width: 200px;
+	cursor: pointer;
+}
+#conteinner #conteudo_editar_dados form fieldset label #alterar:hover {
+	color: #FFF;
+	background-color: #333;
+}
+#conteinner #conteudo_editar_dados form fieldset label #cancelar:hover {
+	color: #FFF;
+	background-color: #333;
+}
+
+
+#conteinner {
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#conteinner #imoveis_cadastrados {
+
+}
+#conteinner #imoveis_cadastrados h1 {
+	text-align: center;
+	font-size: 30px;
+	color: #F0371B;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	margin: 3px;
+}
+#conteinner #imoveis_cadastrados table tr{
+	background-color: #E6E6E6;
+	border: 1px solid #FFF;
+}
+#conteinner #imoveis_cadastrados table tr:hover {
+	color: #FFF;
+	background-color: #3DB2E1;
+}
+#conteinner #imoveis_cadastrados table th {
+	background-color: #333;
+	color: #FFF;
+}
+
+
+
+
+
+#footer {
+	width: 960px;
+	height: 100px;
+	clear: both;
+	background-color: #333;
+	color: #FFF;
+}
+#conteinner #footer h1 {
+	font-size: 36px;
+	text-align: center;
+}
